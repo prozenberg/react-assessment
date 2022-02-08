@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react"
 import List from "../src/Components/List"
-import { CSVLink, CSVDownload } from "react-csv";
+import { CSVLink } from "react-csv";
 import DummyDates from "./Constants"
 
 function App() {
