@@ -11,6 +11,11 @@
     background-color: #21aeca;
   }
   
+  .disclaimer {
+    color: red;
+    padding-bottom: 20px;
+  }
+
   .accordion-title:hover {
     background-color: #3ab4cc;
   }

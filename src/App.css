@@ -29,6 +29,17 @@
   color: #61dafb;
 }
 
+.download-btn {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: #39b9d2;
+}
+
+.download-btn:hover {
+  background-color: #3ab4cc;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
