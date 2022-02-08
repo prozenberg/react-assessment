@@ -12,7 +12,7 @@ const List = () => {
     }, []);
 
     return (<>
-        <div>Working with dummy data, results might not be correct compared to calendar</div>
+        <div>Working with dummy data, results might not be comparable to calendar</div>
         <ul>
             {dummyData.map((data, key) => <MonthAccordion key={key} month={data.month} paymentDay={data.paymentDay} bonusDay={data.bonusDay} />)}
         </ul>
