@@ -4,14 +4,14 @@ import MonthAccordion from "../MonthAccordion"
 import BuildDatesJSON from "../../Hooks/BuildDatesJSON"
 import './style.css';
 
-const List = () => {
+const List = ({ year }) => {
     const [dates, setDates] = useState([]);
-    const fetchData = async () => {
-        setDates(JSON.parse(BuildDatesJSON(2022)))
+    const fetchData = () => {
+        setDates(JSON.parse(BuildDatesJSON(year)))
     }
     useEffect(() => {
         fetchData()
-    }, []);
+    }, [year]);
 
     return (<>
         <div className="download-btn-container">
