@@ -13,5 +13,4 @@ const DummyDates = [
     { month: "December", paymentDay: "30", bonusDay: "15" },
 
 ]
-
 export default DummyDates

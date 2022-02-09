@@ -1,0 +1,10 @@
+
+.download-btn-container {
+    padding-top: 15px;
+  }
+  
+  .download-btn {
+    text-decoration: none;
+    color: black;
+    background-color: #39b9d2;
+  }
