@@ -8,7 +8,6 @@ const BonusDayHook = (year, month) => {
         case 6:
             return new Date(startingDate.setDate(startingDate.getDate()+4));
         default:   
-            console.log(startingDate)
             return startingDate
     }
 };
