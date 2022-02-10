@@ -1,0 +1,7 @@
+.searchErrorContainer {
+    padding: 50px;
+}
+
+.searchErrorContainer p {
+    color:red
+}

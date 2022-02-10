@@ -1,8 +1,9 @@
 import React from 'react';
+import './style.css'
 
 const SearhError = () => {
-    return <div>
-        <p>For simplicity, this application only works with years between 2000 and 2050, please input one between those years.</p>
+    return <div className='searchErrorContainer'>
+        <p>For simplicity, this application only works with years between 2000 and 2050, please input a year between those.</p>
     </div>;
 };
 
