@@ -10,7 +10,6 @@ const Container = () => {
     const handleSearch = (year) => setSearch(year)
 
     useEffect(() => {
-        console.log(search)
     }, [search]);
 
     return <div>
